@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Traffic Management Dashboard</title>
+
+    <!-- Google Maps API -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_GOOGLE_MAPS_API_KEY&callback=initMap" async defer></script>
+    
+    <!-- Chart.js for Traffic Analysis -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <!-- External Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Dashboard Header -->
+    <header>
+        <h1>🚦 Smart Traffic Management System</h1>
+    </header>
+
+    <div class="dashboard-container">
+        <!-- Traffic Status & Controls -->
+        <section class="traffic-info">
+            <h2>📊 Traffic Overview</h2>
+            <p id="traffic-status">Loading Traffic Data...</p>
+
+            <div class="signal-controls">
+                <h3>🚥 Manual Signal Control</h3>
+                <button class="btn red" onclick="changeSignal('red')">Red</button>
+                <button class="btn yellow" onclick="changeSignal('yellow')">Yellow</button>
+                <button class="btn green" onclick="changeSignal('green')">Green</button>
+                <p id="signal-status">Signal: Auto</p>
+            </div>
+            
+            <button class="btn emergency" onclick="detectEmergencyVehicle()">🚨 Emergency Vehicle Detected</button>
+        </section>
+
+        <!-- Live Traffic Density Chart -->
+        <section class="traffic-chart">
+            <h2>📈 Traffic Analysis</h2>
+            <canvas id="trafficChart"></canvas>
+        </section>
+
+        <!-- Google Maps Integration -->
+        <section class="map-container">
+            <h2>🗺️ Live Traffic Map</h2>
+            <div id="map"></div>
+        </section>
+    </div>
+
+    <!-- External JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>

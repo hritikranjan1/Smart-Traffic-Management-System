@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Traffic Management Dashboard</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- Chart.js for Analytics -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <!-- Google Maps API -->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_GOOGLE_MAPS_API_KEY&callback=initMap"></script>
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Dashboard Container -->
+    <div class="dashboard-container">
+        <header>
+            <h1><i class="fas fa-traffic-light"></i> Smart Traffic Management</h1>
+        </header>
+
+        <div class="stats">
+            <div class="card">
+                <h3>Total Vehicles</h3>
+                <p id="total-vehicles">Loading...</p>
+            </div>
+            <div class="card">
+                <h3>Traffic Density</h3>
+                <p id="traffic-density">Loading...</p>
+            </div>
+            <div class="card emergency">
+                <h3>Emergency Vehicle</h3>
+                <p id="emergency-status">Loading...</p>
+            </div>
+        </div>
+
+        <!-- Real-time Traffic Analytics -->
+        <div class="chart-container">
+            <canvas id="trafficChart"></canvas>
+        </div>
+
+        <!-- Google Maps with Traffic Data -->
+        <div class="map-container">
+            <h2>Live Traffic Monitoring</h2>
+            <div id="map"></div>
+        </div>
+    </div>
+
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
