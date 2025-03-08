@@ -4,12 +4,13 @@
 The **Smart Traffic Management System** is an **AI and IoT-powered solution** designed to reduce congestion, optimize traffic signals, and prioritize emergency vehicles. It integrates **machine learning, real-time sensor data, and cybersecurity** features to enhance road safety and efficiency.
 
 ## 🔹 Key Features
-✔️ **Real-time Traffic Monitoring** (Google Maps API)
-✔️ **AI-Based Traffic Prediction**
-✔️ **IoT Sensor Integration** (NodeMCU, IR & Ultrasonic Sensors)
-✔️ **Smart Traffic Light Control 🚦**
-✔️ **Emergency Vehicle Detection 🚑**
-✔️ **Cybersecurity with Data Encryption 🔐**
+ ✔️ **Real-time Traffic Monitoring** (Google Maps API)
+ 
+ ✔️ **AI-Based Traffic Prediction**
+ ✔️ **IoT Sensor Integration** (NodeMCU, IR & Ultrasonic Sensors)
+ ✔️ **Smart Traffic Light Control 🚦**
+ ✔️ **Emergency Vehicle Detection 🚑**
+ ✔️ **Cybersecurity with Data Encryption 🔐**
 
 ## 📂 Project Structure
 ```
