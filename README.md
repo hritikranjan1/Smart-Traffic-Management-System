@@ -7,9 +7,13 @@ The **Smart Traffic Management System** is an **AI and IoT-powered solution** de
  ✔️ **Real-time Traffic Monitoring** (Google Maps API)
  
  ✔️ **AI-Based Traffic Prediction**
+ 
  ✔️ **IoT Sensor Integration** (NodeMCU, IR & Ultrasonic Sensors)
+ 
  ✔️ **Smart Traffic Light Control 🚦**
+    
  ✔️ **Emergency Vehicle Detection 🚑**
+ 
  ✔️ **Cybersecurity with Data Encryption 🔐**
 
 ## 📂 Project Structure
