@@ -15,7 +15,7 @@ def home():
     Root API endpoint.
     Returns a welcome message for API testing.
     """
-    return jsonify({"message": "Welcome to the Smart Traffic Management System API"})
+    return jsonify({"message": "Welcome to the Smart Traffic Management System "})
 
 
 @app.route('/predict', methods=['POST'])
