@@ -43,8 +43,8 @@ Smart_Traffic_Management/
 
 ### 🔹 1. Clone the Repository
 ```sh
-git clone https://github.com/yourgithubusername/Smart-Traffic-Management.git
-cd Smart-Traffic-Management
+git clone https://github.com/hritikranjan1/Smart-Traffic-Management-System.git
+cd Smart-Traffic-Management-System
 ```
 
 ### 🔹 2. Install Backend Dependencies
@@ -120,8 +120,8 @@ Contributions are **welcome**! Follow these steps to contribute:
 This project is licensed under the **MIT License**.
 
 ## 📬 Contact
-📩 **Email:** your.email@example.com  
-🌐 **GitHub:** [Your GitHub Profile](https://github.com/yourgithubusername)  
+📩 **Email:** hritikranjan1408@gmail.com  
+🌐 **GitHub:** [hritikranjan1](https://github.com/hritikranjan1)  
 💡 **Issues/Suggestions?** Open an issue in this repository!
 
 ## 📌 Show Your Support!
